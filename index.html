@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Site</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/fonts.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="header__top-row row justify-between">
+				<a class="header__choose" href="#">
+					<img src="./img/mark.svg" alt="marker">
+					Выберите город
+				</a>
+				<div class="header__phone">
+					<p class="header__phone-text">
+						Заказать обратный звонок
+					</p>
+					<a class="header__phone-link" href="tel:880055555555">
+						8 800 555 555 55
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="container row justify-fend align-center">
+				<ul class="header__nav">
+					<li class="header__nav-list header__nav-parent">
+						<div class="header__nav-item">
+							Услуги
+							<img src="./img/sublist.svg" alt="">
+						</div>
+						<ul class="header__subnav">
+							<li class="header__subnav-list">
+								<a class="header__subnav-link" href="#">Item 1</a>
+							</li>
+							<li class="header__subnav-list">
+								<a class="header__subnav-link" href="#">Item 2</a>
+							</li>
+							<li class="header__subnav-list">
+								<a class="header__subnav-link" href="#">Item 3</a>
+							</li>
+							<li class="header__subnav-list">
+								<a class="header__subnav-link" href="#">Item 4</a>
+							</li>
+						</ul>
+					</li>
+					<li class="header__nav-list"><a class="header__nav-link" href="#">Тендер</a></li>
+					<li class="header__nav-list"><a class="header__nav-link" href="#">Контакты</a></li>
+					<li class="header__nav-list"><a class="header__nav-link" href="#">Галерея</a></li>
+					<li class="header__nav-list"><a class="header__nav-link" href="#">О компании</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="header__menu">
+			<div class="menu">
+				<img class="menu__open active" src="./img/menu.svg" alt="">
+				<img class="menu__close" src="./img/close.svg" alt="">
+			</div>
+		</div>
+	</header>
+	<section class="hero">
+		<img class="hero__img" src="./img/hero.jpg" alt="">
+		<div class="container">
+			<h1 class="hero__title">
+				Комплексные кровельные решения
+			</h1>
+			<p class="hero__desc">
+				Все виды кровельных работ. С соблюдением СНиП и ГОСТ в любое время года со 100% гарантией сроков.
+			</p>
+			<a class="hero__link" href="#">
+				Сделать заказ
+			</a>
+			<a class="hero__more" href="#">
+				Узнать подробнее
+			</a>
+		</div>
+	</section>
+	<section class="works">
+		<div class="container">
+			<div class="works__block">
+				<div class="work">
+					<img class="work__img" src="../img/work-1.svg" alt="worker">
+					<p class="work__text">
+						Бесплатный въезд инженера в день обращения
+					</p>
+				</div>
+				<div class="work">
+					<img class="work__img" src="../img/work-2.svg" alt="garant">
+					<p class="work__text">
+						Гарантия качества работы 10 лет
+					</p>
+				</div>
+				<div class="work">
+					<img class="work__img" src="../img/work-3.svg" alt="calculator">
+					<p class="work__text">
+						Рассчитаем стоимость проекта за несколько часов
+					</p>
+				</div>
+				<div class="work">
+					<img class="work__img" src="../img/work-4.svg" alt="clock">
+					<p class="work__text">
+						Гарантия соблюдения сроков
+					</p>
+				</div>
+				<div class="work">
+					<img class="work__img" src="../img/work-5.svg" alt="prise">
+					<p class="work__text">
+						Выгодные предложения для наших клиентов
+					</p>
+				</div>
+			</div>
+			<div class="works__cards">
+				<div class="row works__row justify-between">
+					<div class="work__card work__card-big">
+						<img class="work__card-img" src="./img/work-card-1.jpg" alt="">
+						<h4 class="work__card-title">Кровельные работы</h4>
+					</div>
+					<div class="work__card work__card-sm">
+						<img class="work__card-img" src="./img/work-card-2.jpg" alt="">
+						<h4 class="work__card-title">Ремонт крыши</h4>
+					</div>
+					<div class="work__card work__card-sm">
+						<img class="work__card-img" src="./img/work-card-3.jpg" alt="">
+						<h4 class="work__card-title">Фасадные работы</h4>
+					</div>
+				</div>
+				<div class="row works__row justify-between">
+					<div class="work__card work__card-sm">
+						<img class="work__card-img" src="./img/work-card-4.jpg" alt="">
+						<h4 class="work__card-title">Мембранная кровля</h4>
+					</div>
+					<div class="work__card work__card-big">
+						<img class="work__card-img" src="./img/work-card-5.jpg" alt="">
+						<h4 class="work__card-title">Битумная кровля</h4>
+					</div>
+
+					<div class="work__card work__card-sm">
+						<img class="work__card-img" src="./img/work-card-6.jpg" alt="">
+						<h4 class="work__card-title">Фасадные работы</h4>
+					</div>
+				</div>
+				<div class="button-wrapper">
+					<button class="btn works__btn">Показать больше</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about">
+		<div class="container">
+			<h5 class="section__title-sm about__title-sm">
+				О компании
+			</h5>
+			<div class="row justify-between">
+				<div class="about__info">
+					<h3 class="section__title about__title">
+						...—крупнейший кровельная компания в России.
+					</h3>
+					<div class="about__text">
+						Мы специализируемся только на кровельных работах и гидроизоляции. Все работы проводятся в строгом
+						соблюдении СНиП и ГОСТ и с соблюдением сроков прописанных в договоре. Гарантирует качество на всех
+						этапах обустройства кровли. Будем на связи 24/7 в течении всего срока дружбы.
+					</div>
+				</div>
+				<div class="about__images">
+					<img class="about__img" src="../img/about-1.png" alt="">
+					<img class="about__img" src="../img/about-2.png" alt="">
+					<img class="about__img" src="../img/about-3.png" alt="">
+					<img class="about__img" src="../img/about-4.png" alt="">
+					<img class="about__img" src="../img/about-5.png" alt="">
+					<img class="about__img" src="../img/about-6.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="action">
+		<div class="consult">
+			<div class="consult__block">
+				<div class="container">
+					<h3 class="consult__title section__title">
+						Нужна консультация?
+					</h3>
+					<p class="consult__text">
+						Наши специалисты ответят на любые ваши вопросы
+					</p>
+					<form class="consult__form row" action="#">
+						<input class="consult__name consult__inp" type="text" placeholder="Имя">
+						<input class="consult__num consult__inp" type="tel" placeholder="Телефон">
+						<button class="consult__btn btn" type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h3 class="section__title suppliers__title">
+				Наши <span>проверенные поставщики</span>
+			</h3>
+		</div>
+		<div class="suppliers">
+			<button class="suppliers__prev-btn">
+				<img src="./img/prev.svg" alt="">
+			</button>
+			<div class="suppliers__block">
+				<div class="suppliers-img"><img src="./img/suppliers-1.png" alt=""></div>
+				<div class="suppliers-img"><img src="./img/suppliers-2.png" alt=""></div>
+				<div class="suppliers-img"><img src="./img/suppliers-3.png" alt=""></div>
+				<div class="suppliers-img"><img src="./img/suppliers-4.png" alt=""></div>
+				<div class="suppliers-img"><img src="./img/suppliers-5.png" alt=""></div>
+			</div>
+			<button class="suppliers__next-btn">
+				<img src="./img/next.svg" alt="">
+			</button>
+		</div>
+		<div class="questions">
+			<div class="container">
+				<h3 class="section__title questions__title">
+					Часто задаваемые вопросы
+				</h3>
+				<div class="questions__block">
+					<div class="questions__content">
+						<div class="questions__text">
+							Какие гарантии на выполненные работы?
+							<button class="questions__button">
+								<img src="./img/plus.svg" alt="">
+							</button>
+						</div>
+					</div>
+					<div class="questions__content">
+						<div class="questions__text">
+							Вы берете предоплату?
+							<button class="questions__button">
+								<img src="./img/plus.svg" alt="">
+							</button>
+						</div>
+					</div>
+					<div class="questions__content">
+						<div class="questions__text">
+							Не изменится ли стоимость работ в процессе работы?
+							<button class="questions__button">
+								<img src="./img/plus.svg" alt="">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer__row justify-between align-center">
+				<p class="footer__copy">
+					Все права защищены ©2022
+				</p>
+				<div class="footer__nav">
+					<a class="footer__nav-link" href="#">Тендер</a>
+					<a class="footer__nav-link" href="#">Контакты</a>
+					<a class="footer__nav-link" href="#">Галерея</a>
+					<a class="footer__nav-link" href="#">Каталог</a>
+					<a class="footer__nav-link" href="#">О компании</a>
+				</div>
+			</div>
+			<div class="footer__socials">
+				<a class="footer__socials-link" href="#">
+					<img src="./img/yt.svg" alt="">
+				</a>
+				<a class="footer__socials-link" href="#">
+					<img src="./img/vk.svg" alt="">
+				</a>
+				<a class="footer__socials-link" href="#">
+					<img src="./img/inst.svg" alt="">
+				</a>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
